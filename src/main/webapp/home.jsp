@@ -78,6 +78,24 @@ h1{
     text-indent: 510px;
     margin-top: 20px;
 }
+
+    footer {
+        position: fixed;
+        height: 40px;
+        bottom:0px;
+        width: 100%;
+        background-color: #333333;
+    }
+
+    p.copyright {
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        line-height: 20px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:10;
+    }
 </style>
 <body>
 <div>
@@ -160,9 +178,9 @@ h1{
             %>
         </div>
     </div>
-    <div id="footer-area">
-        <p>©XYZ Pharmacy 2017</p>
-    </div>
+<footer>
+    <p class="copyright">© XYZ Pharmacy 2017</p>
+</footer>
 </div>
 </body>
 </html>
